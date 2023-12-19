@@ -1,13 +1,14 @@
-        for (int i = 0; i < 10; i++) {
-        int[] data = new int[10];
-}
-        }
+    data = generate_random_data()
 
-            data[i] = (int) (Math.random() * 100) + 1;
-    }
-    public static void main(String[] args) {
-        for (int item : data) {
+        print(f"Random Number: {item}")
 
-            System.out.println("Random Number: " + item);
-        }
-public class RandomDataGenerator {
+def main():
+
+    data = [random.randint(1, 100) for _ in range(10)]
+    main()
+    for item in data:
+    return data
+if __name__ == "__main__":
+
+import random
+def generate_random_data():
